@@ -1,9 +1,16 @@
 import styled from 'styled-components'
 
-const Link = styled.p`
-    color: blue;
-    font-size: 40px;
-
+const Tab = styled.p`
+    width: 100%;
+    height: 26px;
+    font-size: 20px;
+    color: white;
+    :active {
+        color: white;
+    }
+    :hover {
+        color: red;
+    }
 `
 
-export default Link
+export default Tab
